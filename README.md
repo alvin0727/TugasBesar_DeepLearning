@@ -109,12 +109,12 @@ The following are the evaluation results of the model on the given dataset:
 | **Actual Negative** | 4039              | 208               |
 | **Actual Positive** | 130               | 4603              |
 
-![Evaluation](https://i.imgur.com/your-image-id.png)
-![Evaluation](https://i.imgur.com/your-image-id.png)
+![Evaluation](https://github.com/alvin0727/TugasBesar_DeepLearning/blob/main/Images/image1.png)
+![Evaluation](https://github.com/alvin0727/TugasBesar_DeepLearning/blob/main/Images/image2.png)
 
 
 ## Gui
 
-![Gui](https://i.imgur.com/your-image-id.png)
+![Gui](https://github.com/alvin0727/TugasBesar_DeepLearning/blob/main/Images/image3.png)
 
 We appreciate your interest in this project. Thank you for taking the time to explore our work!
