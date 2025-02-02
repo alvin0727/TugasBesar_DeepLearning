@@ -52,7 +52,7 @@ The preprocessing phase involves cleaning and preparing text data before trainin
 
 ## Dataset Structure
 The dataset is sourced from the **ISOT**:  
-[Bank Marketing Dataset](https://onlineacademiccommunity.uvic.ca/isot/2022/11/27/fake-news-detection-datasets/)
+[Fake News Dataset](https://onlineacademiccommunity.uvic.ca/isot/2022/11/27/fake-news-detection-datasets/)
 
 The dataset used in this project must follow this format:
 - **Title**: News title.
