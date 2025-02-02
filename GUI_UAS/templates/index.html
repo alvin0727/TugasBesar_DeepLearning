@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Classification</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <div class="container">
+        <h1>News Classification</h1>
+
+        {% if error %}
+        <div class="error">{{ error }}</div>
+        {% endif %}
+
+        <form method="POST">
+            <label for="user_input">Enter text:</label>
+            <textarea name="user_input" id="user_input" rows="4" required></textarea>
+            <br>
+            <button type="submit">Predict</button>
+        </form>
+
+        {% if result is not none %}
+        <div class="result">
+            <h2>Prediction Result:</h2>
+            <p><strong>Prediction:</strong> {% if label == 'Positive' %} Fake News {% else %} Real News {% endif %}</p>
+            <p><strong>Probability:</strong> {{ probability }}</p>
+        </div>
+        {% endif %}
+    </div>
+</body>
+
+</html>
